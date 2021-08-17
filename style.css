@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    text-align: center;
+}
+
+:root{
+    --primary-color: #A7C7E7;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    background-image: url("./images/sofiya-levchenko-l6yLVM-FJxc-unsplash.jpg");
+    min-height:100vh;
+    background-size: contain;
+    width: 600px;
+    max-width: 600px;
+    overflow: scroll;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.container{
+    position: absolute;
+    max-width: 600px;
+    min-height: 100vh;
+    height: auto;
+    top: 40%;
+}
+.header{
+    position:relative;
+    background-color:var(--primary-color);
+    height: 150px;
+    width:400px;
+    font-size: larger;
+    margin-left: 17%;
+    box-shadow: 5px 5px 10px 2px #888888;
+    border-radius: 1rem;
+}
+.main-section{
+    background-color:var(--primary-color);
+    height:auto;
+    min-height: 100vh;
+    max-width: 600px;
+    width: 600px;
+    margin-top:50%;
+    position:relative;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px 2px #888888;
+}
+.header h1{
+    padding-top: 1rem;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.privacy-alert{
+    height: 60px; 
+    background-color:var(--primary-color);
+    border: 1px solid red;
+    box-shadow: 5px 5px 10px 2px #888888;
+    color: red;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 0 0.5rem ;
+    margin: 1rem auto
+}
+.icon{
+    margin-left: 1rem;
+}
+label{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+input{
+    padding: 1.3rem 3rem;
+    margin: 1rem;
+    font-weight: 600;
+}
+button{
+    padding:0.8rem;
+    background-color: pink;
+    color: black;
+    font-size:medium;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: white;
+}
+
+.output{  
+    color: white;
+    font-size: larger;
+    margin: 2rem auto;
+    /* border-radius: 10px; */
+}
+.lucky{
+    display: none;
+}
+.unlucky{
+    display: none;
+
+}
+footer{
+    width: auto;
+    box-shadow: 5px 5px 10px 2px #888888;
+    margin: -1rem;
+    height: 60px;
+}
+footer h5{
+    margin-top: -0.3rem;
+}
+ul,li{
+    display:inline;
+    padding:1rem ;
+    list-style: none;
+}
+li a{
+    color:black;   
+}
